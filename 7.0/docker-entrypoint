@@ -1,0 +1,10 @@
+#!/bin/bash
+
+root_dir="/var/local"
+src_dir="$root_dir/src"
+
+if [ -d "$src_dir" ]; then
+    sami update --force sami.php
+fi
+
+exec "$@"
