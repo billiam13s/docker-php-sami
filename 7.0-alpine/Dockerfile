@@ -1,4 +1,4 @@
-FROM php:7.0
+FROM php:7.0-alpine
 
 LABEL maintainer "me@billiam.ca"
 

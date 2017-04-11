@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 root_dir="/var/local"
 src_dir="$root_dir/src"
